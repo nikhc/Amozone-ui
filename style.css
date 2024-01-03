@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("minimage.webp");
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size:0.85rem;
+
+}
+.add-second{
+    font-size:1rem;
+
+}
+.add-icon{
+    display:flex;
+    align-items:center
+}
+
+.box{
+
+    background-color: pink;
+    width:620px;
+    height:40px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box:hover{
+    border:2px solid orange;
+}
+select{
+  
+    width:52px;
+    
+    color:#0f1111;
+    background-color: #f3f3f3;
+    text-align: center;
+    border: none;
+  
+    
+}
+.search-input{
+    width:100%;;
+    font-size:1rem;
+    border:none;
+    
+
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: yellow;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+.cart{
+    display: flex;
+}
+.cart-icon i{
+   font-size: 30px;
+}
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:space-evenly ;
+}
+.panel-ops p{
+    display:inline;
+    margin-left:15px;
+}
+
+.panel-ops{
+    width:70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:700;
+} 
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(box1_image.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.hero-section div {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 0.85rem;
+   color: #007185;
+    margin: 100px; 
+}
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-image: url(imges/box2_image.jpg);
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: center center; /* Center the image */
+    
+    flex-wrap: wrap;
+    
+  
+}
+
+
+.boxo{
+    border:2px solid red;
+    height:300px;
+    width:23%;
+   
+    margin:10px;
+   
+}
+.box-img {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80%; /* Adjust the height as needed */
+    margin: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
